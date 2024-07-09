@@ -1,0 +1,48 @@
+<!--forms
+core web vitals
+meta description-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a form.">
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>This is a form.</h1>
+    <form action="submit" method="post">
+        <p>USERNAME:*
+      <input type="text" name="username" placeholder="Enter your username" required></p>
+      <p> <label for="fruits">PASSWORD*</label><input
+        type="password"
+        name="password"
+        placeholder="Enter your password" required></p>
+        <p>
+            EMAIL:* <input type="email" name="email" required placeholder="Enter your email">
+        </p>
+        <p><input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <p>
+      <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+      <label for="subscribe">Subscribe to newsletter</label></p>
+      <p><textarea name="comment" rows="4" cols="50">
+            Enter your comment here...
+        </textarea></p>
+      <p>FRUITS
+        <select name="fruits">
+            <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="cherry">Cherry</option>
+      </select></p>
+      <span>
+      <input type="submit" value="SUBMIT" style="background-color: blue; color: azure;"></span>
+    </form>
+  </body>
+</html>
+<!--Core Web Vitals
+CLS=Cumulative Layout Shift
+LCP=Largest Contentful Paint
+FID=First Input Delay-->
